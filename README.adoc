@@ -14,7 +14,7 @@ https://syosetu.com/[小説家になろう]のタイトルの一覧と頻出ワ�
 
 [source,bash]
 ----
-./get_title.sh
+./fetch_title.sh
 ----
 
 ランキングの生成 (ranking.txt)
