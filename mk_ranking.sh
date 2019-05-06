@@ -2,7 +2,7 @@
 
 cat title.txt \
   | mecab \
-  | grep -v EOS \
+  | grep -ve EOS -e Page \
   | grep 名詞 \
   | cut -f 1 \
   | sort \
