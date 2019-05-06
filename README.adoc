@@ -17,9 +17,9 @@ https://syosetu.com/[小説家になろう]のタイトルの一覧と頻出ワ�
 ./fetch_title.sh
 ----
 
-ランキングの生成 (ranking.txt)
+辞書の生成 (dictionary.txt)
 
 [source,bash]
 ----
-./mk_ranking.sh
+./mk_dictionary.sh
 ----
