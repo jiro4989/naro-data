@@ -1,0 +1,21 @@
+= naro-data
+:toc: left
+:sectnums:
+
+https://syosetu.com/[小説家になろう]のタイトルの一覧と頻出ワードを取得する。
+
+== 前提条件
+
+* mecab
+
+== 使い方
+
+タイトル一覧の取得 (title.txt)
+
+[source,bash]
+./get_title.sh
+
+ランキングの生成 (ranking.txt)
+
+[source,bash]
+./mk_ranking.sh
